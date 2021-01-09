@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar__container a {
+  color: #000;
+}
+
+.navbar__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail img {
+  max-height: 150px;
+}
+

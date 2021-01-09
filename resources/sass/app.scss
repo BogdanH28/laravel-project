@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+}
+
+.navbar {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        a {
+            color: #000;
+        }
+    }
+
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.thumbnail img {
+    max-height: 150px;
+}
